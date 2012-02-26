@@ -12,19 +12,6 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
-		320BCCFC14F9FCC5003E1C1D /* EMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCCF514F9FCC5003E1C1D /* EMedia.m */; };
-		320BCCFD14F9FCC5003E1C1D /* ESprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCCF714F9FCC5003E1C1D /* ESprite.m */; };
-		320BCCFE14F9FCC5003E1C1D /* ESpriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCCF914F9FCC5003E1C1D /* ESpriteManager.m */; };
-		320BCCFF14F9FCC5003E1C1D /* ESpriteState.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCCFB14F9FCC5003E1C1D /* ESpriteState.m */; };
-		320BCD1314F9FCDB003E1C1D /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD0114F9FCDB003E1C1D /* NSData+Base64.m */; };
-		320BCD1414F9FCDB003E1C1D /* TMXData.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD0314F9FCDB003E1C1D /* TMXData.m */; };
-		320BCD1514F9FCDB003E1C1D /* TMXEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD0514F9FCDB003E1C1D /* TMXEvent.m */; };
-		320BCD1614F9FCDB003E1C1D /* TMXLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD0814F9FCDB003E1C1D /* TMXLayer.m */; };
-		320BCD1714F9FCDB003E1C1D /* TMXMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD0A14F9FCDB003E1C1D /* TMXMap.m */; };
-		320BCD1814F9FCDB003E1C1D /* TMXObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD0C14F9FCDB003E1C1D /* TMXObject.m */; };
-		320BCD1914F9FCDB003E1C1D /* TMXObjectGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD0E14F9FCDB003E1C1D /* TMXObjectGroup.m */; };
-		320BCD1A14F9FCDB003E1C1D /* TMXTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD1014F9FCDB003E1C1D /* TMXTile.m */; };
-		320BCD1B14F9FCDB003E1C1D /* TMXTileSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD1214F9FCDB003E1C1D /* TMXTileSet.m */; };
 		320BCD2114F9FD10003E1C1D /* map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD1F14F9FD10003E1C1D /* map.tmx */; };
 		320BCD2214F9FD10003E1C1D /* pset.png in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD2014F9FD10003E1C1D /* pset.png */; };
 		320BCD2714F9FD31003E1C1D /* player_atlas.pvr.gz in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD2314F9FD31003E1C1D /* player_atlas.pvr.gz */; };
@@ -37,6 +24,19 @@
 		320BCD3514F9FDEC003E1C1D /* outerThumbstick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD3114F9FDEC003E1C1D /* outerThumbstick@2x.png */; };
 		320BCD3814F9FE11003E1C1D /* SHThumbstick.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD3714F9FE11003E1C1D /* SHThumbstick.m */; };
 		320BCD3B14F9FE20003E1C1D /* BEScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD3A14F9FE20003E1C1D /* BEScreen.m */; };
+		320BCD6314FA0BBC003E1C1D /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD5014FA0BBC003E1C1D /* NSData+Base64.m */; };
+		320BCD6414FA0BBC003E1C1D /* TMXData.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD5314FA0BBC003E1C1D /* TMXData.m */; };
+		320BCD6514FA0BBC003E1C1D /* TMXEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD5514FA0BBC003E1C1D /* TMXEvent.m */; };
+		320BCD6614FA0BBC003E1C1D /* TMXLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD5814FA0BBC003E1C1D /* TMXLayer.m */; };
+		320BCD6714FA0BBC003E1C1D /* TMXMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD5A14FA0BBC003E1C1D /* TMXMap.m */; };
+		320BCD6814FA0BBC003E1C1D /* TMXObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD5C14FA0BBC003E1C1D /* TMXObject.m */; };
+		320BCD6914FA0BBC003E1C1D /* TMXObjectGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD5E14FA0BBC003E1C1D /* TMXObjectGroup.m */; };
+		320BCD6A14FA0BBC003E1C1D /* TMXTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD6014FA0BBC003E1C1D /* TMXTile.m */; };
+		320BCD6B14FA0BBC003E1C1D /* TMXTileSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD6214FA0BBC003E1C1D /* TMXTileSet.m */; };
+		320BCD7414FA0BCE003E1C1D /* EMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD6D14FA0BCE003E1C1D /* EMedia.m */; };
+		320BCD7514FA0BCE003E1C1D /* ESprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD6F14FA0BCE003E1C1D /* ESprite.m */; };
+		320BCD7614FA0BCE003E1C1D /* ESpriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD7114FA0BCE003E1C1D /* ESpriteManager.m */; };
+		320BCD7714FA0BCE003E1C1D /* ESpriteState.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD7314FA0BCE003E1C1D /* ESpriteState.m */; };
 		DE3F093811B7B9DC009D4DB0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3F093711B7B9DC009D4DB0 /* AVFoundation.framework */; };
 		DE3F093A11B7B9DC009D4DB0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3F093911B7B9DC009D4DB0 /* AudioToolbox.framework */; };
 		DE3F097811B7BABD009D4DB0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3F097711B7BABD009D4DB0 /* OpenAL.framework */; };
@@ -79,33 +79,6 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		320BCCF414F9FCC5003E1C1D /* EMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMedia.h; path = ../../../SparrowEnhancedSprite/src/EMedia.h; sourceTree = "<group>"; };
-		320BCCF514F9FCC5003E1C1D /* EMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMedia.m; path = ../../../SparrowEnhancedSprite/src/EMedia.m; sourceTree = "<group>"; };
-		320BCCF614F9FCC5003E1C1D /* ESprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESprite.h; path = ../../../SparrowEnhancedSprite/src/ESprite.h; sourceTree = "<group>"; };
-		320BCCF714F9FCC5003E1C1D /* ESprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESprite.m; path = ../../../SparrowEnhancedSprite/src/ESprite.m; sourceTree = "<group>"; };
-		320BCCF814F9FCC5003E1C1D /* ESpriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESpriteManager.h; path = ../../../SparrowEnhancedSprite/src/ESpriteManager.h; sourceTree = "<group>"; };
-		320BCCF914F9FCC5003E1C1D /* ESpriteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESpriteManager.m; path = ../../../SparrowEnhancedSprite/src/ESpriteManager.m; sourceTree = "<group>"; };
-		320BCCFA14F9FCC5003E1C1D /* ESpriteState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESpriteState.h; path = ../../../SparrowEnhancedSprite/src/ESpriteState.h; sourceTree = "<group>"; };
-		320BCCFB14F9FCC5003E1C1D /* ESpriteState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESpriteState.m; path = ../../../SparrowEnhancedSprite/src/ESpriteState.m; sourceTree = "<group>"; };
-		320BCD0014F9FCDB003E1C1D /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "../../../SparrowTileMaps/src/Classes/NSData+Base64.h"; sourceTree = "<group>"; };
-		320BCD0114F9FCDB003E1C1D /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "../../../SparrowTileMaps/src/Classes/NSData+Base64.m"; sourceTree = "<group>"; };
-		320BCD0214F9FCDB003E1C1D /* TMXData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXData.h; path = ../../../SparrowTileMaps/src/Classes/TMXData.h; sourceTree = "<group>"; };
-		320BCD0314F9FCDB003E1C1D /* TMXData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXData.m; path = ../../../SparrowTileMaps/src/Classes/TMXData.m; sourceTree = "<group>"; };
-		320BCD0414F9FCDB003E1C1D /* TMXEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXEvent.h; path = ../../../SparrowTileMaps/src/Classes/TMXEvent.h; sourceTree = "<group>"; };
-		320BCD0514F9FCDB003E1C1D /* TMXEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXEvent.m; path = ../../../SparrowTileMaps/src/Classes/TMXEvent.m; sourceTree = "<group>"; };
-		320BCD0614F9FCDB003E1C1D /* TMXEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXEvents.h; path = ../../../SparrowTileMaps/src/Classes/TMXEvents.h; sourceTree = "<group>"; };
-		320BCD0714F9FCDB003E1C1D /* TMXLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXLayer.h; path = ../../../SparrowTileMaps/src/Classes/TMXLayer.h; sourceTree = "<group>"; };
-		320BCD0814F9FCDB003E1C1D /* TMXLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXLayer.m; path = ../../../SparrowTileMaps/src/Classes/TMXLayer.m; sourceTree = "<group>"; };
-		320BCD0914F9FCDB003E1C1D /* TMXMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXMap.h; path = ../../../SparrowTileMaps/src/Classes/TMXMap.h; sourceTree = "<group>"; };
-		320BCD0A14F9FCDB003E1C1D /* TMXMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXMap.m; path = ../../../SparrowTileMaps/src/Classes/TMXMap.m; sourceTree = "<group>"; };
-		320BCD0B14F9FCDB003E1C1D /* TMXObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXObject.h; path = ../../../SparrowTileMaps/src/Classes/TMXObject.h; sourceTree = "<group>"; };
-		320BCD0C14F9FCDB003E1C1D /* TMXObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXObject.m; path = ../../../SparrowTileMaps/src/Classes/TMXObject.m; sourceTree = "<group>"; };
-		320BCD0D14F9FCDB003E1C1D /* TMXObjectGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXObjectGroup.h; path = ../../../SparrowTileMaps/src/Classes/TMXObjectGroup.h; sourceTree = "<group>"; };
-		320BCD0E14F9FCDB003E1C1D /* TMXObjectGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXObjectGroup.m; path = ../../../SparrowTileMaps/src/Classes/TMXObjectGroup.m; sourceTree = "<group>"; };
-		320BCD0F14F9FCDB003E1C1D /* TMXTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXTile.h; path = ../../../SparrowTileMaps/src/Classes/TMXTile.h; sourceTree = "<group>"; };
-		320BCD1014F9FCDB003E1C1D /* TMXTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXTile.m; path = ../../../SparrowTileMaps/src/Classes/TMXTile.m; sourceTree = "<group>"; };
-		320BCD1114F9FCDB003E1C1D /* TMXTileSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXTileSet.h; path = ../../../SparrowTileMaps/src/Classes/TMXTileSet.h; sourceTree = "<group>"; };
-		320BCD1214F9FCDB003E1C1D /* TMXTileSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXTileSet.m; path = ../../../SparrowTileMaps/src/Classes/TMXTileSet.m; sourceTree = "<group>"; };
 		320BCD1F14F9FD10003E1C1D /* map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map.tmx; sourceTree = "<group>"; };
 		320BCD2014F9FD10003E1C1D /* pset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pset.png; sourceTree = "<group>"; };
 		320BCD2314F9FD31003E1C1D /* player_atlas.pvr.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = player_atlas.pvr.gz; sourceTree = "<group>"; };
@@ -120,6 +93,34 @@
 		320BCD3714F9FE11003E1C1D /* SHThumbstick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHThumbstick.m; sourceTree = "<group>"; };
 		320BCD3914F9FE20003E1C1D /* BEScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEScreen.h; sourceTree = "<group>"; };
 		320BCD3A14F9FE20003E1C1D /* BEScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEScreen.m; sourceTree = "<group>"; };
+		320BCD4F14FA0BBC003E1C1D /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "TMXTileMaps/NSData+Base64.h"; sourceTree = "<group>"; };
+		320BCD5014FA0BBC003E1C1D /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "TMXTileMaps/NSData+Base64.m"; sourceTree = "<group>"; };
+		320BCD5114FA0BBC003E1C1D /* Sparrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sparrow.h; path = TMXTileMaps/Sparrow.h; sourceTree = "<group>"; };
+		320BCD5214FA0BBC003E1C1D /* TMXData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXData.h; path = TMXTileMaps/TMXData.h; sourceTree = "<group>"; };
+		320BCD5314FA0BBC003E1C1D /* TMXData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXData.m; path = TMXTileMaps/TMXData.m; sourceTree = "<group>"; };
+		320BCD5414FA0BBC003E1C1D /* TMXEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXEvent.h; path = TMXTileMaps/TMXEvent.h; sourceTree = "<group>"; };
+		320BCD5514FA0BBC003E1C1D /* TMXEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXEvent.m; path = TMXTileMaps/TMXEvent.m; sourceTree = "<group>"; };
+		320BCD5614FA0BBC003E1C1D /* TMXEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXEvents.h; path = TMXTileMaps/TMXEvents.h; sourceTree = "<group>"; };
+		320BCD5714FA0BBC003E1C1D /* TMXLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXLayer.h; path = TMXTileMaps/TMXLayer.h; sourceTree = "<group>"; };
+		320BCD5814FA0BBC003E1C1D /* TMXLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXLayer.m; path = TMXTileMaps/TMXLayer.m; sourceTree = "<group>"; };
+		320BCD5914FA0BBC003E1C1D /* TMXMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXMap.h; path = TMXTileMaps/TMXMap.h; sourceTree = "<group>"; };
+		320BCD5A14FA0BBC003E1C1D /* TMXMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXMap.m; path = TMXTileMaps/TMXMap.m; sourceTree = "<group>"; };
+		320BCD5B14FA0BBC003E1C1D /* TMXObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXObject.h; path = TMXTileMaps/TMXObject.h; sourceTree = "<group>"; };
+		320BCD5C14FA0BBC003E1C1D /* TMXObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXObject.m; path = TMXTileMaps/TMXObject.m; sourceTree = "<group>"; };
+		320BCD5D14FA0BBC003E1C1D /* TMXObjectGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXObjectGroup.h; path = TMXTileMaps/TMXObjectGroup.h; sourceTree = "<group>"; };
+		320BCD5E14FA0BBC003E1C1D /* TMXObjectGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXObjectGroup.m; path = TMXTileMaps/TMXObjectGroup.m; sourceTree = "<group>"; };
+		320BCD5F14FA0BBC003E1C1D /* TMXTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXTile.h; path = TMXTileMaps/TMXTile.h; sourceTree = "<group>"; };
+		320BCD6014FA0BBC003E1C1D /* TMXTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXTile.m; path = TMXTileMaps/TMXTile.m; sourceTree = "<group>"; };
+		320BCD6114FA0BBC003E1C1D /* TMXTileSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMXTileSet.h; path = TMXTileMaps/TMXTileSet.h; sourceTree = "<group>"; };
+		320BCD6214FA0BBC003E1C1D /* TMXTileSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMXTileSet.m; path = TMXTileMaps/TMXTileSet.m; sourceTree = "<group>"; };
+		320BCD6C14FA0BCE003E1C1D /* EMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMedia.h; path = ESprite/EMedia.h; sourceTree = "<group>"; };
+		320BCD6D14FA0BCE003E1C1D /* EMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMedia.m; path = ESprite/EMedia.m; sourceTree = "<group>"; };
+		320BCD6E14FA0BCE003E1C1D /* ESprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESprite.h; path = ESprite/ESprite.h; sourceTree = "<group>"; };
+		320BCD6F14FA0BCE003E1C1D /* ESprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESprite.m; path = ESprite/ESprite.m; sourceTree = "<group>"; };
+		320BCD7014FA0BCE003E1C1D /* ESpriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESpriteManager.h; path = ESprite/ESpriteManager.h; sourceTree = "<group>"; };
+		320BCD7114FA0BCE003E1C1D /* ESpriteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESpriteManager.m; path = ESprite/ESpriteManager.m; sourceTree = "<group>"; };
+		320BCD7214FA0BCE003E1C1D /* ESpriteState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESpriteState.h; path = ESprite/ESpriteState.h; sourceTree = "<group>"; };
+		320BCD7314FA0BCE003E1C1D /* ESpriteState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESpriteState.m; path = ESprite/ESpriteState.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Application_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Application-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Application-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		DE3F093711B7B9DC009D4DB0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -227,25 +228,26 @@
 		320BCCEF14F9FC96003E1C1D /* TMX Tile Maps */ = {
 			isa = PBXGroup;
 			children = (
-				320BCD0014F9FCDB003E1C1D /* NSData+Base64.h */,
-				320BCD0114F9FCDB003E1C1D /* NSData+Base64.m */,
-				320BCD0214F9FCDB003E1C1D /* TMXData.h */,
-				320BCD0314F9FCDB003E1C1D /* TMXData.m */,
-				320BCD0414F9FCDB003E1C1D /* TMXEvent.h */,
-				320BCD0514F9FCDB003E1C1D /* TMXEvent.m */,
-				320BCD0614F9FCDB003E1C1D /* TMXEvents.h */,
-				320BCD0714F9FCDB003E1C1D /* TMXLayer.h */,
-				320BCD0814F9FCDB003E1C1D /* TMXLayer.m */,
-				320BCD0914F9FCDB003E1C1D /* TMXMap.h */,
-				320BCD0A14F9FCDB003E1C1D /* TMXMap.m */,
-				320BCD0B14F9FCDB003E1C1D /* TMXObject.h */,
-				320BCD0C14F9FCDB003E1C1D /* TMXObject.m */,
-				320BCD0D14F9FCDB003E1C1D /* TMXObjectGroup.h */,
-				320BCD0E14F9FCDB003E1C1D /* TMXObjectGroup.m */,
-				320BCD0F14F9FCDB003E1C1D /* TMXTile.h */,
-				320BCD1014F9FCDB003E1C1D /* TMXTile.m */,
-				320BCD1114F9FCDB003E1C1D /* TMXTileSet.h */,
-				320BCD1214F9FCDB003E1C1D /* TMXTileSet.m */,
+				320BCD4F14FA0BBC003E1C1D /* NSData+Base64.h */,
+				320BCD5014FA0BBC003E1C1D /* NSData+Base64.m */,
+				320BCD5114FA0BBC003E1C1D /* Sparrow.h */,
+				320BCD5214FA0BBC003E1C1D /* TMXData.h */,
+				320BCD5314FA0BBC003E1C1D /* TMXData.m */,
+				320BCD5414FA0BBC003E1C1D /* TMXEvent.h */,
+				320BCD5514FA0BBC003E1C1D /* TMXEvent.m */,
+				320BCD5614FA0BBC003E1C1D /* TMXEvents.h */,
+				320BCD5714FA0BBC003E1C1D /* TMXLayer.h */,
+				320BCD5814FA0BBC003E1C1D /* TMXLayer.m */,
+				320BCD5914FA0BBC003E1C1D /* TMXMap.h */,
+				320BCD5A14FA0BBC003E1C1D /* TMXMap.m */,
+				320BCD5B14FA0BBC003E1C1D /* TMXObject.h */,
+				320BCD5C14FA0BBC003E1C1D /* TMXObject.m */,
+				320BCD5D14FA0BBC003E1C1D /* TMXObjectGroup.h */,
+				320BCD5E14FA0BBC003E1C1D /* TMXObjectGroup.m */,
+				320BCD5F14FA0BBC003E1C1D /* TMXTile.h */,
+				320BCD6014FA0BBC003E1C1D /* TMXTile.m */,
+				320BCD6114FA0BBC003E1C1D /* TMXTileSet.h */,
+				320BCD6214FA0BBC003E1C1D /* TMXTileSet.m */,
 			);
 			name = "TMX Tile Maps";
 			sourceTree = "<group>";
@@ -264,14 +266,14 @@
 		320BCCF314F9FCA6003E1C1D /* ESprite */ = {
 			isa = PBXGroup;
 			children = (
-				320BCCF414F9FCC5003E1C1D /* EMedia.h */,
-				320BCCF514F9FCC5003E1C1D /* EMedia.m */,
-				320BCCF614F9FCC5003E1C1D /* ESprite.h */,
-				320BCCF714F9FCC5003E1C1D /* ESprite.m */,
-				320BCCF814F9FCC5003E1C1D /* ESpriteManager.h */,
-				320BCCF914F9FCC5003E1C1D /* ESpriteManager.m */,
-				320BCCFA14F9FCC5003E1C1D /* ESpriteState.h */,
-				320BCCFB14F9FCC5003E1C1D /* ESpriteState.m */,
+				320BCD6C14FA0BCE003E1C1D /* EMedia.h */,
+				320BCD6D14FA0BCE003E1C1D /* EMedia.m */,
+				320BCD6E14FA0BCE003E1C1D /* ESprite.h */,
+				320BCD6F14FA0BCE003E1C1D /* ESprite.m */,
+				320BCD7014FA0BCE003E1C1D /* ESpriteManager.h */,
+				320BCD7114FA0BCE003E1C1D /* ESpriteManager.m */,
+				320BCD7214FA0BCE003E1C1D /* ESpriteState.h */,
+				320BCD7314FA0BCE003E1C1D /* ESpriteState.m */,
 			);
 			name = ESprite;
 			sourceTree = "<group>";
@@ -438,21 +440,21 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* ApplicationDelegate.m in Sources */,
 				DE4A3DE510FFB2AF00FDA492 /* Game.m in Sources */,
-				320BCCFC14F9FCC5003E1C1D /* EMedia.m in Sources */,
-				320BCCFD14F9FCC5003E1C1D /* ESprite.m in Sources */,
-				320BCCFE14F9FCC5003E1C1D /* ESpriteManager.m in Sources */,
-				320BCCFF14F9FCC5003E1C1D /* ESpriteState.m in Sources */,
-				320BCD1314F9FCDB003E1C1D /* NSData+Base64.m in Sources */,
-				320BCD1414F9FCDB003E1C1D /* TMXData.m in Sources */,
-				320BCD1514F9FCDB003E1C1D /* TMXEvent.m in Sources */,
-				320BCD1614F9FCDB003E1C1D /* TMXLayer.m in Sources */,
-				320BCD1714F9FCDB003E1C1D /* TMXMap.m in Sources */,
-				320BCD1814F9FCDB003E1C1D /* TMXObject.m in Sources */,
-				320BCD1914F9FCDB003E1C1D /* TMXObjectGroup.m in Sources */,
-				320BCD1A14F9FCDB003E1C1D /* TMXTile.m in Sources */,
-				320BCD1B14F9FCDB003E1C1D /* TMXTileSet.m in Sources */,
 				320BCD3814F9FE11003E1C1D /* SHThumbstick.m in Sources */,
 				320BCD3B14F9FE20003E1C1D /* BEScreen.m in Sources */,
+				320BCD6314FA0BBC003E1C1D /* NSData+Base64.m in Sources */,
+				320BCD6414FA0BBC003E1C1D /* TMXData.m in Sources */,
+				320BCD6514FA0BBC003E1C1D /* TMXEvent.m in Sources */,
+				320BCD6614FA0BBC003E1C1D /* TMXLayer.m in Sources */,
+				320BCD6714FA0BBC003E1C1D /* TMXMap.m in Sources */,
+				320BCD6814FA0BBC003E1C1D /* TMXObject.m in Sources */,
+				320BCD6914FA0BBC003E1C1D /* TMXObjectGroup.m in Sources */,
+				320BCD6A14FA0BBC003E1C1D /* TMXTile.m in Sources */,
+				320BCD6B14FA0BBC003E1C1D /* TMXTileSet.m in Sources */,
+				320BCD7414FA0BCE003E1C1D /* EMedia.m in Sources */,
+				320BCD7514FA0BCE003E1C1D /* ESprite.m in Sources */,
+				320BCD7614FA0BCE003E1C1D /* ESpriteManager.m in Sources */,
+				320BCD7714FA0BCE003E1C1D /* ESpriteState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
