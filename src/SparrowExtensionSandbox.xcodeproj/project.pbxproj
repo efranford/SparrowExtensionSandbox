@@ -12,16 +12,6 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
-		320BCD2114F9FD10003E1C1D /* map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD1F14F9FD10003E1C1D /* map.tmx */; };
-		320BCD2214F9FD10003E1C1D /* pset.png in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD2014F9FD10003E1C1D /* pset.png */; };
-		320BCD2714F9FD31003E1C1D /* player_atlas.pvr.gz in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD2314F9FD31003E1C1D /* player_atlas.pvr.gz */; };
-		320BCD2814F9FD31003E1C1D /* player_atlas.tps in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD2414F9FD31003E1C1D /* player_atlas.tps */; };
-		320BCD2914F9FD31003E1C1D /* player_atlas.xml in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD2514F9FD31003E1C1D /* player_atlas.xml */; };
-		320BCD2A14F9FD31003E1C1D /* Player.xml in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD2614F9FD31003E1C1D /* Player.xml */; };
-		320BCD3214F9FDEC003E1C1D /* innerThumbstick.png in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD2E14F9FDEC003E1C1D /* innerThumbstick.png */; };
-		320BCD3314F9FDEC003E1C1D /* innerThumbstick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD2F14F9FDEC003E1C1D /* innerThumbstick@2x.png */; };
-		320BCD3414F9FDEC003E1C1D /* outerThumbstick.png in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD3014F9FDEC003E1C1D /* outerThumbstick.png */; };
-		320BCD3514F9FDEC003E1C1D /* outerThumbstick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD3114F9FDEC003E1C1D /* outerThumbstick@2x.png */; };
 		320BCD3814F9FE11003E1C1D /* SHThumbstick.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD3714F9FE11003E1C1D /* SHThumbstick.m */; };
 		320BCD3B14F9FE20003E1C1D /* BEScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD3A14F9FE20003E1C1D /* BEScreen.m */; };
 		320BCD6314FA0BBC003E1C1D /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD5014FA0BBC003E1C1D /* NSData+Base64.m */; };
@@ -37,6 +27,16 @@
 		320BCD7514FA0BCE003E1C1D /* ESprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD6F14FA0BCE003E1C1D /* ESprite.m */; };
 		320BCD7614FA0BCE003E1C1D /* ESpriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD7114FA0BCE003E1C1D /* ESpriteManager.m */; };
 		320BCD7714FA0BCE003E1C1D /* ESpriteState.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BCD7314FA0BCE003E1C1D /* ESpriteState.m */; };
+		320BCD7C14FA0CC9003E1C1D /* player_atlas.pvr.gz in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD7814FA0CC9003E1C1D /* player_atlas.pvr.gz */; };
+		320BCD7D14FA0CC9003E1C1D /* player_atlas.tps in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD7914FA0CC9003E1C1D /* player_atlas.tps */; };
+		320BCD7E14FA0CC9003E1C1D /* player_atlas.xml in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD7A14FA0CC9003E1C1D /* player_atlas.xml */; };
+		320BCD7F14FA0CC9003E1C1D /* Player.xml in Resources */ = {isa = PBXBuildFile; fileRef = 320BCD7B14FA0CC9003E1C1D /* Player.xml */; };
+		32EEB2CB14FAC65100418D7F /* map.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB2C914FAC65100418D7F /* map.tmx */; };
+		32EEB2CC14FAC65100418D7F /* pset.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB2CA14FAC65100418D7F /* pset.png */; };
+		32EEB2D114FAC67A00418D7F /* innerThumbstick.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB2CD14FAC67A00418D7F /* innerThumbstick.png */; };
+		32EEB2D214FAC67A00418D7F /* innerThumbstick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB2CE14FAC67A00418D7F /* innerThumbstick@2x.png */; };
+		32EEB2D314FAC67A00418D7F /* outerThumbstick.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB2CF14FAC67A00418D7F /* outerThumbstick.png */; };
+		32EEB2D414FAC67A00418D7F /* outerThumbstick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB2D014FAC67A00418D7F /* outerThumbstick@2x.png */; };
 		DE3F093811B7B9DC009D4DB0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3F093711B7B9DC009D4DB0 /* AVFoundation.framework */; };
 		DE3F093A11B7B9DC009D4DB0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3F093911B7B9DC009D4DB0 /* AudioToolbox.framework */; };
 		DE3F097811B7BABD009D4DB0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3F097711B7BABD009D4DB0 /* OpenAL.framework */; };
@@ -79,16 +79,6 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		320BCD1F14F9FD10003E1C1D /* map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map.tmx; sourceTree = "<group>"; };
-		320BCD2014F9FD10003E1C1D /* pset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pset.png; sourceTree = "<group>"; };
-		320BCD2314F9FD31003E1C1D /* player_atlas.pvr.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = player_atlas.pvr.gz; sourceTree = "<group>"; };
-		320BCD2414F9FD31003E1C1D /* player_atlas.tps */ = {isa = PBXFileReference; lastKnownFileType = file; path = player_atlas.tps; sourceTree = "<group>"; };
-		320BCD2514F9FD31003E1C1D /* player_atlas.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = player_atlas.xml; sourceTree = "<group>"; };
-		320BCD2614F9FD31003E1C1D /* Player.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Player.xml; sourceTree = "<group>"; };
-		320BCD2E14F9FDEC003E1C1D /* innerThumbstick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = innerThumbstick.png; sourceTree = "<group>"; };
-		320BCD2F14F9FDEC003E1C1D /* innerThumbstick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "innerThumbstick@2x.png"; sourceTree = "<group>"; };
-		320BCD3014F9FDEC003E1C1D /* outerThumbstick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outerThumbstick.png; sourceTree = "<group>"; };
-		320BCD3114F9FDEC003E1C1D /* outerThumbstick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "outerThumbstick@2x.png"; sourceTree = "<group>"; };
 		320BCD3614F9FE11003E1C1D /* SHThumbstick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHThumbstick.h; sourceTree = "<group>"; };
 		320BCD3714F9FE11003E1C1D /* SHThumbstick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHThumbstick.m; sourceTree = "<group>"; };
 		320BCD3914F9FE20003E1C1D /* BEScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEScreen.h; sourceTree = "<group>"; };
@@ -121,7 +111,17 @@
 		320BCD7114FA0BCE003E1C1D /* ESpriteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESpriteManager.m; path = ESprite/ESpriteManager.m; sourceTree = "<group>"; };
 		320BCD7214FA0BCE003E1C1D /* ESpriteState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESpriteState.h; path = ESprite/ESpriteState.h; sourceTree = "<group>"; };
 		320BCD7314FA0BCE003E1C1D /* ESpriteState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESpriteState.m; path = ESprite/ESpriteState.m; sourceTree = "<group>"; };
+		320BCD7814FA0CC9003E1C1D /* player_atlas.pvr.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = player_atlas.pvr.gz; sourceTree = "<group>"; };
+		320BCD7914FA0CC9003E1C1D /* player_atlas.tps */ = {isa = PBXFileReference; lastKnownFileType = file; path = player_atlas.tps; sourceTree = "<group>"; };
+		320BCD7A14FA0CC9003E1C1D /* player_atlas.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = player_atlas.xml; sourceTree = "<group>"; };
+		320BCD7B14FA0CC9003E1C1D /* Player.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Player.xml; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Application_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application_Prefix.pch; sourceTree = "<group>"; };
+		32EEB2C914FAC65100418D7F /* map.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map.tmx; sourceTree = "<group>"; };
+		32EEB2CA14FAC65100418D7F /* pset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pset.png; sourceTree = "<group>"; };
+		32EEB2CD14FAC67A00418D7F /* innerThumbstick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = innerThumbstick.png; sourceTree = "<group>"; };
+		32EEB2CE14FAC67A00418D7F /* innerThumbstick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "innerThumbstick@2x.png"; sourceTree = "<group>"; };
+		32EEB2CF14FAC67A00418D7F /* outerThumbstick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outerThumbstick.png; sourceTree = "<group>"; };
+		32EEB2D014FAC67A00418D7F /* outerThumbstick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "outerThumbstick@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Application-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Application-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		DE3F093711B7B9DC009D4DB0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DE3F093911B7B9DC009D4DB0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -289,10 +289,10 @@
 		320BCD1D14F9FCED003E1C1D /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				320BCD2314F9FD31003E1C1D /* player_atlas.pvr.gz */,
-				320BCD2414F9FD31003E1C1D /* player_atlas.tps */,
-				320BCD2514F9FD31003E1C1D /* player_atlas.xml */,
-				320BCD2614F9FD31003E1C1D /* Player.xml */,
+				320BCD7814FA0CC9003E1C1D /* player_atlas.pvr.gz */,
+				320BCD7914FA0CC9003E1C1D /* player_atlas.tps */,
+				320BCD7A14FA0CC9003E1C1D /* player_atlas.xml */,
+				320BCD7B14FA0CC9003E1C1D /* Player.xml */,
 			);
 			name = Player;
 			sourceTree = "<group>";
@@ -300,8 +300,8 @@
 		320BCD1E14F9FCF5003E1C1D /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				320BCD1F14F9FD10003E1C1D /* map.tmx */,
-				320BCD2014F9FD10003E1C1D /* pset.png */,
+				32EEB2C914FAC65100418D7F /* map.tmx */,
+				32EEB2CA14FAC65100418D7F /* pset.png */,
 			);
 			name = Maps;
 			sourceTree = "<group>";
@@ -327,10 +327,10 @@
 		320BCD2D14F9FDBB003E1C1D /* SHThumbstick */ = {
 			isa = PBXGroup;
 			children = (
-				320BCD2E14F9FDEC003E1C1D /* innerThumbstick.png */,
-				320BCD2F14F9FDEC003E1C1D /* innerThumbstick@2x.png */,
-				320BCD3014F9FDEC003E1C1D /* outerThumbstick.png */,
-				320BCD3114F9FDEC003E1C1D /* outerThumbstick@2x.png */,
+				32EEB2CD14FAC67A00418D7F /* innerThumbstick.png */,
+				32EEB2CE14FAC67A00418D7F /* innerThumbstick@2x.png */,
+				32EEB2CF14FAC67A00418D7F /* outerThumbstick.png */,
+				32EEB2D014FAC67A00418D7F /* outerThumbstick@2x.png */,
 			);
 			name = SHThumbstick;
 			sourceTree = "<group>";
@@ -417,16 +417,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				320BCD2114F9FD10003E1C1D /* map.tmx in Resources */,
-				320BCD2214F9FD10003E1C1D /* pset.png in Resources */,
-				320BCD2714F9FD31003E1C1D /* player_atlas.pvr.gz in Resources */,
-				320BCD2814F9FD31003E1C1D /* player_atlas.tps in Resources */,
-				320BCD2914F9FD31003E1C1D /* player_atlas.xml in Resources */,
-				320BCD2A14F9FD31003E1C1D /* Player.xml in Resources */,
-				320BCD3214F9FDEC003E1C1D /* innerThumbstick.png in Resources */,
-				320BCD3314F9FDEC003E1C1D /* innerThumbstick@2x.png in Resources */,
-				320BCD3414F9FDEC003E1C1D /* outerThumbstick.png in Resources */,
-				320BCD3514F9FDEC003E1C1D /* outerThumbstick@2x.png in Resources */,
+				320BCD7C14FA0CC9003E1C1D /* player_atlas.pvr.gz in Resources */,
+				320BCD7D14FA0CC9003E1C1D /* player_atlas.tps in Resources */,
+				320BCD7E14FA0CC9003E1C1D /* player_atlas.xml in Resources */,
+				320BCD7F14FA0CC9003E1C1D /* Player.xml in Resources */,
+				32EEB2CB14FAC65100418D7F /* map.tmx in Resources */,
+				32EEB2CC14FAC65100418D7F /* pset.png in Resources */,
+				32EEB2D114FAC67A00418D7F /* innerThumbstick.png in Resources */,
+				32EEB2D214FAC67A00418D7F /* innerThumbstick@2x.png in Resources */,
+				32EEB2D314FAC67A00418D7F /* outerThumbstick.png in Resources */,
+				32EEB2D414FAC67A00418D7F /* outerThumbstick@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
